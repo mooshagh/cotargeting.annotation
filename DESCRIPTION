@@ -1,0 +1,33 @@
+Package: cotargeting.annotation
+Title: miRNA co-targeting annotation
+Version: 0.95.1
+Authors@R: 
+    person(given = "Saleh",
+           family = "Oshaghi",
+           role = c("aut", "cre"),
+           email = "salehoshaghi@yahoo.com",
+           comment = c(ORCID = "0000-0001-7267-4248"))
+Maintainers@R:
+    person(given = "Saleh",
+           family = "Oshaghi",
+           role = c("aut", "cre"),
+           email = "salehoshaghi@yahoo.com",
+           comment = c(ORCID = "0000-0001-7267-4248"))
+Description: This R package provides a miRNA-mRNA association and miRNA-GO
+ annotation database for Homo sapiens, Mus musculus, and Rattus norvegicus. In
+ addition, the package contains information on miRNA sequences and their
+ respective families. The databases are created from TargetScan, miRTarBase,
+ and QuickGO.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+    GenomicRanges
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+biocViews: AnnotationHub, AnnotationData, Homo_sapiens, Mus_musculus, Rattus_norvegicus
+Config/testthat/edition: 3
