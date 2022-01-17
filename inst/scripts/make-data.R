@@ -20,6 +20,6 @@
 
 
 #miRNA gene ontology associations
-#A function annotation database for microRNAs was created based on gene 
+#A functional annotation database for microRNAs was created based on gene 
 #ontology annotations from The European Bioinformatics Institute (EMBL-EBI) - 
 #QuickGO (https://www.ebi.ac.uk/QuickGO/)
